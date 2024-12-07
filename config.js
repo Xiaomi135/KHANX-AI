@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "a7Jh0bjD#TlC2KdDenW73ryyltFo0WOQdHXAvu1vlwR6qqtwj8yY",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -23,7 +23,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words
 ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "null,sax").split(','),
 // add custom antu bad words 
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 // make true or false status auto seen
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -33,6 +33,6 @@ HEART_REACT: process.env.HEART_REACT || "true",
 // make this true or false for heart reactions only 
 OWNER_REACT: process.env.OWNER_REACT || "true",
   // make it true or fasle for only react on owner msg only 
-FAKE_RECORDING: process.env.FAKE_RECORDING || "true"
+FAKE_RECORDING: process.env.FAKE_RECORDING || "false"
 // make it true for auto recoding 
 };
